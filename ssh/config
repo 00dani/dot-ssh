@@ -1,0 +1,8 @@
+# vim: set ft=sshconfig :
+Include config.d/*
+Host *
+	ControlMaster auto
+	ControlPath ~/.cache/ssh/%r@%h:%p
+	ControlPersist 3600
+	StreamLocalBindUnlink yes
+	VisualHostKey yes
