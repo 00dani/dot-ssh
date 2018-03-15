@@ -5,4 +5,5 @@ Host *
 	ControlPath ~/.cache/ssh/%r@%h:%p
 	ControlPersist 3600
 	StreamLocalBindUnlink yes
+	VerifyHostKeyDNS yes
 	VisualHostKey yes
