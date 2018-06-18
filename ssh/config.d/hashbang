@@ -1,0 +1,4 @@
+Host hashbang
+	HostName sf1.hashbang.sh
+	IdentitiesOnly yes
+	User dani
